@@ -22,5 +22,11 @@ public class Sketch extends PApplet {
      line(0, i, width/2, i);
   }
   
-  
-}
+   // Quadrant 2
+   fill(255, 242, 0);
+   for (int circleY = ((height)/14); circleY <= ((height/14)*7); circleY += ((height)/11)) {
+     for (int circleX = ((width)/14)+250; circleX <= ((width/14)*7)+250; circleX += ((width)/11)) {
+       ellipse(circleX, circleY, 25, 25);
+     }
+
+}}}
