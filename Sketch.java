@@ -50,4 +50,8 @@ public class Sketch extends PApplet {
       popMatrix();
     }
 
-}}
+    fill(7, 146, 20);
+    noStroke();
+    ellipse((width/2)+width/4, (height/2)+height/4, 50, 50);
+  }
+}
