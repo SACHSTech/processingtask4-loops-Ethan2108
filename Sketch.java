@@ -37,5 +37,12 @@ public class Sketch extends PApplet {
      line(i, height/2, i, height);
     }
 
+   // Quadrant 4
+    for (int intAngle = 0; intAngle < 360; intAngle += 45) {
+      stroke(0, 0, 0);
+      strokeWeight(1);
+      fill(220, 93, 52);
+
+    }
 
 }}
