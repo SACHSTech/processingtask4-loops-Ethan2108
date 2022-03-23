@@ -48,7 +48,6 @@ public class Sketch extends PApplet {
       rotate(radians(intAngle));
       ellipse(0, 0, width / 20, height / 3);
       popMatrix();
-
     }
 
 }}
