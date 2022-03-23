@@ -28,5 +28,14 @@ public class Sketch extends PApplet {
      for (int circleX = ((width)/14)+250; circleX <= ((width/14)*7)+250; circleX += ((width)/11)) {
        ellipse(circleX, circleY, 25, 25);
      }
+   }
 
-}}}
+   // Quadrant 3
+   strokeWeight((float)0.002*height);
+   for (int i = 0; i <= height/2; i++) {
+     stroke(i, i, i);
+     line(i, height/2, i, height);
+    }
+
+
+}}
