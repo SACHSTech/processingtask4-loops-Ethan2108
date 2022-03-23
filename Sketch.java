@@ -13,7 +13,7 @@ public class Sketch extends PApplet {
 
   public void draw() {
 	  
-   strokeWeight((float)0.006*height);
+   strokeWeight((float)0.005*height);
    stroke(0, 0, 0);
 
    // Quadrant 1
@@ -50,7 +50,7 @@ public class Sketch extends PApplet {
       popMatrix();
     }
 
-    fill(7, 146, 20);
+    fill(0, 153, 48);
     noStroke();
     ellipse((width/2)+width/4, (height/2)+height/4, 50, 50);
   }
