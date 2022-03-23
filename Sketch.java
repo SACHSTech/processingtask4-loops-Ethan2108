@@ -13,8 +13,14 @@ public class Sketch extends PApplet {
 
   public void draw() {
 	  
-	
+   strokeWeight((float)0.006*height);
+   stroke(0, 0, 0);
+
+   // Quadrant 1
+   for (int i = height/20; i <= height/2; i += height/20) {
+     line(i, 0, i, height/2);
+     line(0, i, width/2, i);
   }
   
-  // define other methods down here.
+  
 }
