@@ -43,6 +43,12 @@ public class Sketch extends PApplet {
       strokeWeight(1);
       fill(220, 93, 52);
 
+      pushMatrix();
+      translate(width * 3 / 4, height * 3 / 4);
+      rotate(radians(intAngle));
+      ellipse(0, 0, width / 20, height / 3);
+      popMatrix();
+
     }
 
 }}
