@@ -31,7 +31,7 @@ public class Sketch extends PApplet {
    }
 
    // Quadrant 3
-   strokeWeight((float)0.002*height);
+   strokeWeight((float)0.01*height);
    for (int i = 0; i <= height/2; i++) {
      stroke(i, i, i);
      line(i, height/2, i, height);
